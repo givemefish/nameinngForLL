@@ -8,13 +8,21 @@
 	<link rel="stylesheet" href="./styles/kendo.common.min.css" />
 	<link rel="stylesheet" href="./styles/kendo.default.min.css" />
 	<link rel="stylesheet" href="./styles/kendo.default.mobile.min.css" />
+	<style>
+		body {
+ 			position: relative;
+  			height: auto;
+  			min-height: 100% !important;
+		}
+	</style>
 	<script src="./js/jquery.min.js"></script>
 	<script src="./js/jszip.min.js"></script>
 	<script src="./js/kendo.all.min.js"></script>
+	
 </head>
 
 <body>
-	<div style="height: 800px">
+	
 		<table id="grid" style="display: none">
 			<tr>
 				<th data-field="名字">名字</th>
@@ -7822,7 +7830,7 @@
 				</td>
 			</tr>
 		</table>
-	</div>
+	
 	<script type="text/x-kendo-template" id="template">
 		<a href="excel.xlsx" target="_blank" class="k-link k-button"><span class="k-icon k-i-file-excel"></span>&nbsp;Excel版本</a>
 	</script>
